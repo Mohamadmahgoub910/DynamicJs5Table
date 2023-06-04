@@ -5,7 +5,6 @@ btn.addEventListener("click", function () {
   var txt = document.querySelector("input").value;
   var content = document.getElementsByClassName("content")[0];
   if (txt !== "") {
-    // console.log(txt);
     content.innerText = txt;
     content.style.backgroundColor = txt;
   }
