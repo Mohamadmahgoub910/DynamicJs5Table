@@ -8,10 +8,7 @@ do {
     alert("size is " + size);
   }
 } while (!Number(size));
-/**
- * name length should be more than 3 and less than 10 characters
-age: should be greater than 10 and less than 60.
- */
+
 var flag;
 var arr = new Array(size);
 var arrNames = new Array();
@@ -40,12 +37,6 @@ for (var i = 0; i < size; i++) {
     alert(flag);
   }
 }
-console.log(arrNames);
-console.log(arrAges);
-// var index = 0;
-// for (index in arr) {
-//   console.log(index + " with data : " + arr[index]);
-// }
 // create row to add data in the table
 var tbody = document.getElementsByTagName("tbody")[0];
 for (var i = 0; i < arrNames.length; i++) {
